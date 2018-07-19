@@ -12,4 +12,3 @@
 *.out
 debug
 *.code-workspace
-t2t.go
