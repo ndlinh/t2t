@@ -19,5 +19,5 @@ Generated structs can be use with `https://github.com/jmoiron/sqlx/issues/135` p
 
 # Todos
 
-[] Writing tests
-[] PostgreSQL dialect
+- [ ] Writing tests
+- [ ] PostgreSQL dialect
