@@ -15,6 +15,18 @@ Generated structs can be use with `https://github.com/jmoiron/sqlx/issues/135` p
 
     t2t -dsn <dsn> -p <package name> [-o output directory] [-t tables]
 
+    Options:
+
+    -dsn string
+    	DB connect DSN. Ex: root:root@localhost/flarum
+    -o string
+            Optional. Output directory. Use current directory if empty
+    -p string
+            Package name
+    -t string
+            Optional. Tables to export. Use commas to separate table's name
+
+
     Ex: t2t -p "test" -o "./test" -t "users_tags" -dsn "root:root@localhost/flarum_test"
 
 # Todos
