@@ -1,7 +1,7 @@
 # Introduction
 
 This package provide helper functions for generate go struct from MySQL table.
-Generated structs can be use with `https://github.com/jmoiron/sqlx/` package.
+Generated structs that can be use with https://github.com/jmoiron/sqlx/ package.
 
 # How to use
 
